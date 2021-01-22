@@ -1,0 +1,13 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.1.RELEASE'
+}
+
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile libs.springBoot
+    implementation "io.springfox:springfox-boot-starter:3.0.0"
+}
